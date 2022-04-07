@@ -151,4 +151,34 @@ $(function () {
             });
         }
     });
+
+    //Delete button
+
+    // $("#deleteBtn").on("click", function (e) {
+    //     e.preventDefault();
+    //     Swal.fire({
+    //         title: "Delete a Product",
+    //         text: "Are you sure, You want to delete it ?",
+    //         icon: "warning",
+    //         showCancelButton: true,
+    //         confirmButtonColor: "#30865d",
+    //         cancelButtonColor: "#d33",
+    //         confirmButtonText: "Delete Now!",
+    //     }).then((result) => {
+    //         if (result.isConfirmed) {
+    //             console.log("confirmed");
+    //             $.ajax({
+    //                 type: "get",
+    //                 url: "delete-product/".prodID,
+    //                 success: function (response) {
+    //                     // console.log(response);
+    //                     setInterval(() => {
+    //                         window.location = response.url;
+    //                     }, 500);
+    //                     // $("#login-btn").removeAttr("disabled", true).text("Submit");
+    //                 },
+    //             });
+    //         }
+    //     });
+    // });
 });

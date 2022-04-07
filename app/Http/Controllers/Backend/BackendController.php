@@ -86,10 +86,11 @@ class BackendController extends Controller
     public function deleteProduct($prodId)
     {
         $prodid = Product::where('id', $prodId);
-        if($prodId->exists()){
+        if($prodId){
             $prodid->delete();
             $url = 'dashboard';
-        return response()->json(['status' => 'success', 'message'=> "Product Removed ", 'url' => $url]);
+        // return response()->json(['status' => 'success', 'message'=> "Product Removed ", 'url' => $url]);
+        return back();
         }else{
             return response()->json(['status' => 'error', 'message' => "An error occur while delete product"]);
         }
