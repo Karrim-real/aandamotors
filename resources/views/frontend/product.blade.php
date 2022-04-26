@@ -1,5 +1,5 @@
 @include('frontend.layout.head')
-<link href="{{ secure_asset('frontend/assets/css/product.css') }}" rel="stylesheet">
+<link href="{{ asset('frontend/assets/css/product.css') }}" rel="stylesheet">
 @include('frontend.layout.nav')
 
 <main>

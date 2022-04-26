@@ -11,8 +11,8 @@
 
 
     <!-- Bootstrap core CSS -->
-<link href="{{ secure_asset('backend/assets/css/bootstrap.min.css') }}" rel="stylesheet">
-<link href="{{ secure_asset('backend/assets/css/dashboard.css') }}" rel="stylesheet">
+<link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('backend/assets/css/dashboard.css') }}" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {

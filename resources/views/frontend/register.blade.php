@@ -1,6 +1,6 @@
 @include('frontend.layout.head')
    <!-- Custom styles for this template -->
-    <link href="{{ secure_asset('frontend/assets/css/signin.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/assets/css/signin.css') }}" rel="stylesheet">
   <body class="text-center">
 <main class="form-signin text-center">
   <form  action="" method="POST" id="registerForm">
